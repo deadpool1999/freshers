@@ -454,44 +454,65 @@ body h1{
 @media screen and (max-width:600px)
 {
     body{
-        background: url("https://saswatdeadpool.site.live/img/jkojl-2mzMg-Zw6uf-y5UQN-7Bfmc.jpeg") ;
+        background-size: cover ;
         background-position-x: -200px ;
          
+    }
+    body h1{
+        left: 0px ;
+        font-size: 40px ;
     }
     .carousel1{
         left: 10px ;
         top: 40vh ;
     }
     .carouselpoints{
-        left: 30px ;
-        top: 54vh ;
+        top: 200px ;
+        left: 40px ;
     }
-    body h1{
-        top: 75vh ;
-        left: 10px ;
-    }
+   
     .reviews{
-        top: 25vh ;
+        position: absolute;
+        top: 240px ;
         left: 40vh ; 
     }
-
-    #rt2{
-        
-        size: 100% ;
-        
-
+    #rt1{
+        position: absolute;
+        top: 50px ;
     }
+    
     .dropdown .toggler:checked ~ .menu{
 
         visibility: visible ;
         opacity: 1;
-        transform: translateY(400px) translateX(-950px) scale(10) ;
+        transform: translateY(400px) translateX(-870px) scale(10) ;
     }
     #menuitems{
         padding-top: 50% ;
-        font-size: 1px ;
+        font-size: 10px ;
         font-style: bold ;
 
+    }
+    .intro{
+        top: 380px ;
+        left: 10px;
+        text-shadow: 5px 5px 10px pink ;
+
+    }
+    .events{
+        
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    .events div{
+        width: 120px ;
+        height: 120px ;
+        
+    }
+    .events img{
+        width: 120px  ;
+        height: 120px ;
+      
+        
     }
 
 }
