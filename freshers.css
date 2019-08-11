@@ -1,7 +1,7 @@
 body {
     top: 0 ;
     left: 0 ;
-    background: url("body.jpg") ;
+    background: url("body1.png") ;
     background-size: 105% ;
     transition-property: all ;
     transition-timing-function: linear ;
@@ -20,7 +20,7 @@ body h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     font-stretch: semi-expanded ;
     font-style: italic ;
-    
+    opacity: 0;
     justify-content: center ;
     align-items: center ;
     color: white ;
@@ -416,7 +416,7 @@ body h1{
     position: relative; 
     top: 30% ;
     left: 30%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;    
+    font-family: cursive ;    
     font-size: 30px ;
     color: yellow ;
     width: 500px ;
@@ -449,6 +449,533 @@ body h1{
   
     
 }
+
+#ev1_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev1_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev1_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev1points{
+    position: absolute;
+    top: -10% ;
+    left: -50px;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev1check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev1check:checked{
+    z-index: 1;
+}   
+.ev1check:checked ~ .ev1points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 0;
+}
+/*ev2*/
+#ev2_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev2_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev2_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev2points{
+    position: absolute ;
+    top: -10% ;
+    left: 300px;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden ;
+    
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev2check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev2check:checked{
+    z-index: 1;
+}   
+.ev2check:checked ~ .ev2points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 330;
+}
+/*ev3*/
+#ev3_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev3_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev3_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev3points{
+    position: absolute;
+    top: -10% ;
+    left: 48% ;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+   
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev3check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev3check:checked{
+    z-index: 1;
+}   
+.ev3check:checked ~ .ev3points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 50%;
+}
+/*ev4*/
+#ev4_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev4_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev4_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev4points{
+    position: absolute;
+    top: -10% ;
+    left: 70%;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev4check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev4check:checked{
+    z-index: 1;
+}   
+.ev4check:checked ~ .ev4points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 72%;
+}
+/*ev5*/
+#ev5_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev5_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev5_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev5points{
+    position: absolute;
+    top: 50% ;
+    left: -50px;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev5check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev5check:checked{
+    z-index: 1;
+}   
+.ev5check:checked ~ .ev5points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 0;
+}
+/*ev6*/
+#ev6_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev6_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev6_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev6points{
+    position: absolute;
+    top: 50% ;
+    left: 23%;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden ;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev6check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev6check:checked{
+    z-index: 1;
+}   
+.ev6check:checked ~ .ev6points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 25%;
+}
+/*ev7*/
+#ev7_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev7_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev7_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev7points{
+    position: absolute;
+    top: 50% ;
+    left: 48%;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev7check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev7check:checked{
+    z-index: 1;
+}   
+.ev7check:checked ~ .ev7points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 50%;
+}
+/*ev8*/
+#ev8_1{
+
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 150px ;
+    left: 250px ;
+    opacity: 1;
+    border-radius: 5px ;
+
+}
+#ev8_2{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 100px ;
+    left: 250px ;
+    border-radius: 5px ;
+   
+}
+#ev8_3{
+    width: 50px ;
+    height: 50px ;
+    position: absolute ;
+    top: 50px ;
+    left: 250px ;
+    border-radius: 5px ;
+    
+} 
+
+
+.ev8points{
+    position: absolute;
+    top: 50% ;
+    left: 70%;
+    width: 100vh ;
+    height: 100vh ;
+    background: black ;
+    opacity: 0;
+    color: white ;
+    color: aqua ;
+    text-shadow: 5px 5px 5px palevioletred ;
+    font-weight: bold ;
+    visibility: hidden;
+    transition-property: all ;
+    transition-duration: 1s ;
+}
+.ev8check{
+    position: relative ;
+    transform: translateY(-220px) translateX(-30px ) ; 
+    background: transparent ;
+    width: 250px ;
+    height: 250px;
+    z-index: 0;
+    opacity: 0;
+}
+.ev8check:checked{
+    z-index: 1;
+}   
+.ev8check:checked ~ .ev8points{
+    visibility: visible;
+    opacity: 0.8;
+    left: 72%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:600px)
