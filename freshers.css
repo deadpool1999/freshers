@@ -437,6 +437,11 @@ body h1{
     transition-duration: 2s ; 
 
 }
+.ev{
+    opacity: 0;
+    transition-property: all ;
+    transition-duration: 2s ; 
+}
 .events div{
     width: 200px ;
     height: 200px ;
