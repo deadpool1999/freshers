@@ -983,6 +983,7 @@ body h1{
     body{
         background-size: cover ;
         background-position-x: -200px ;
+        overflow-y: scroll ;
          
     }
     body h1{
@@ -1028,18 +1029,132 @@ body h1{
     }
     .events{
         
-        grid-template-columns: repeat(2,1fr) ;
+        grid-template-columns: repeat(2,0.5fr) ;
+        left: 30px ;
     }
     .events div{
-        width: 120px ;
-        height: 120px ;
+        width: 250px ;
+        height: 250px ;
         
     }
     .events img{
-        width: 120px  ;
-        height: 120px ;
+        width: 180px  ;
+        height: 180px ;
       
         
     }
+    .ev1points{
+        
+        top: 20% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev2points{
+        
+        top: 20% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev3points{
+        
+        top: 0% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev4points{
+        
+        top: 0% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev5points{
+        
+        top: 70% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev6points{
+        
+        top: 70% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev7points{
+        
+        top: 50% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+    .ev8points{
+        
+        top: 50% ;
+        left: 50%;
+        width: 300px ;
+        height: 300px;
+        z-index: 1;
+    }
+
+
+    .ev2check:checked ~ .ev2points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev3check:checked ~ .ev3points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev4check:checked ~ .ev4points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev5check:checked ~ .ev5points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev6check:checked ~ .ev6points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev7check:checked ~ .ev7points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+    .ev8check:checked ~ .ev8points{
+        visibility: visible;
+        opacity: 0.8;
+        left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
