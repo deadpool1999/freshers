@@ -1030,11 +1030,11 @@ body h1{
     .events{
         
         grid-template-columns: repeat(2,1.5fr) ;
-        left: 10% ;
+        left: 5% ;
     }
     .events div{
-        width: 300px ;
-        height: 300px ;
+        width: 250px ;
+        height: 250px ;
         
     }
     .events img{
