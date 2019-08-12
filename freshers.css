@@ -989,6 +989,9 @@ body h1{
         background-size: cover ;
         background-position-x: -200px ;
         overflow: scroll ;
+        justify-content: center ;
+        align-items: center;
+        
          
     }
     body h1{
@@ -1034,83 +1037,84 @@ body h1{
     }
     .events{
         
-        grid-template-columns: repeat(2,1fr) ;
-        margin-left : 30% ;
+        grid-template-columns: repeat(1,1fr) ;
+        left: 1rem ;
     }
     .events div{
         width: 300px ;
         height: 300px ;
+        padding: 10% ;
         
     }
     .events img{
-        width: 180px  ;
-        height: 180px ;
+        width: 200px  ;
+        height: 200px ;
       
         
     }
     .ev1points{
         
-        top: 20% ;
+        top: 0% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev2points{
         
-        top: 20% ;
+        top: 10% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+       
     }
     .ev3points{
         
-        top: 0% ;
+        top: 25% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev4points{
         
-        top: 0% ;
+        top: 35% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev5points{
         
-        top: 70% ;
+        top: 50% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev6points{
         
-        top: 70% ;
+        top: 60% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev7points{
         
-        top: 50% ;
+        top: 75% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
     .ev8points{
         
-        top: 50% ;
+        top: 85% ;
         left: 50%;
         width: 300px ;
         height: 300px;
-        z-index: 1;
+        
     }
 
 
