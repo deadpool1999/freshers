@@ -1034,8 +1034,8 @@ body h1{
     }
     .events{
         
-        grid-template-columns: repeat(2,0.5fr) ;
-        left: 10% ;
+        grid-template-columns: repeat(2,1fr) ;
+        margin-left : 30% ;
     }
     .events div{
         width: 250px ;
