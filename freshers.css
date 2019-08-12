@@ -1029,12 +1029,12 @@ body h1{
     }
     .events{
         
-        grid-template-columns: repeat(2,0.5fr) ;
-        left: 30px ;
+        grid-template-columns: repeat(2,1.5fr) ;
+        left: 10% ;
     }
     .events div{
-        width: 250px ;
-        height: 250px ;
+        width: 300px ;
+        height: 300px ;
         
     }
     .events img{
