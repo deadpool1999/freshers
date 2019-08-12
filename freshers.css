@@ -1029,8 +1029,8 @@ body h1{
     }
     .events{
         
-        grid-template-columns: repeat(2,1.5fr) ;
-        left: 5% ;
+        grid-template-columns: repeat(2,0.5fr) ;
+        left: 10% ;
     }
     .events div{
         width: 250px ;
