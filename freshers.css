@@ -581,7 +581,7 @@ body h1{
 .ev2check:checked ~ .ev2points{
     visibility: visible;
     opacity: 0.8;
-    left: 330;
+    left: 25%;
 }
 /*ev3*/
 #ev3_1{
@@ -1038,7 +1038,8 @@ body h1{
     .events{
         
         grid-template-columns: repeat(1,1fr) ;
-        left: 1rem ;
+        left: 5rem ;
+        
     }
     .events div{
         width: 300px ;
@@ -1047,8 +1048,8 @@ body h1{
         
     }
     .events img{
-        width: 200px  ;
-        height: 200px ;
+        width: 300px  ;
+        height: 300px ;
       
         
     }
@@ -1062,7 +1063,7 @@ body h1{
     }
     .ev2points{
         
-        top: 10% ;
+        top: 12.5% ;
         left: 50%;
         width: 300px ;
         height: 300px;
@@ -1078,7 +1079,7 @@ body h1{
     }
     .ev4points{
         
-        top: 35% ;
+        top: 37.5% ;
         left: 50%;
         width: 300px ;
         height: 300px;
@@ -1094,7 +1095,7 @@ body h1{
     }
     .ev6points{
         
-        top: 60% ;
+        top: 62.5% ;
         left: 50%;
         width: 300px ;
         height: 300px;
@@ -1110,7 +1111,7 @@ body h1{
     }
     .ev8points{
         
-        top: 85% ;
+        top: 87.5% ;
         left: 50%;
         width: 300px ;
         height: 300px;
